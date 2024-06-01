@@ -31,11 +31,12 @@ function App() {
     <>
       <div className='h-screen w-full' style={{backgroundColor:color}}>
 
-    <div className='text-center text-5xl py-20 font-serif' style={{backgroundColor:color}}>
+    <div className='text-center text-5xl py-14 font-serif'>
       Background Color Changer
     </div>
 <div class="flex justify-center">
-  <button onClick={getRandomColor} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg  ">
+  
+  <button onClick={getRandomColor} class="my-20 bg-blue-500 hover:bg-blue-800 text-white font-bold py-4 px-8 rounded-lg  text-lg border-2 border-black shadow-2xl ">
     Random
   </button>
 </div>
